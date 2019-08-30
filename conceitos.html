@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conceitos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /*
+      em  - relativo ao elemento pai
+      rem - relativo ao root (html) - 16px
+    */
+    html {
+      font-size: 62.5%; /* 1rem = 10px */
+    }
+
+    @media (max-width: 600px) {
+      html {
+        font-size: 50%;
+      }
+    }
+
+    div {
+      font-size: 20px;
+      padding: 5rem;
+    }
+
+    p {
+      font-size: 4rem;
+    }
+
+    span {
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p>Bootcamp <span>Rocketseat</span></p>
+  </div>
+</body>
+</html>
